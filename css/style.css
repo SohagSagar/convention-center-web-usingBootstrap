@@ -1,0 +1,166 @@
+/* common css */
+*body{
+    overflow-x:none;
+    width:100%;
+}
+:root{
+    --main-color:#FF6263;
+    --text-color:#3A3A3A;
+    --rating-color:#E8BD0D;
+}
+small{
+    color:#758283 ;
+}
+.heading{
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+}
+.zoom-effect:hover {
+    -ms-transform: scale(0.1); /* IE 9 */
+    -webkit-transform: scale(0.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    transition: 0.3s;
+    color: #FF6263;
+}
+.button{
+    padding: 8px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Dongle', sans-serif;
+    width: 200px !important;
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+
+.button:hover{
+    color: var(--main-color);
+    background-color: white;
+    transition: 0.6s;
+}
+/* navigation bar */
+.navigation-bar{
+    margin-top: 88px;
+}
+/* slider customization */
+.slider-bg{
+    background-color: #F4F1EA;
+}
+
+/* album sections */
+.album{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+/* package section */
+.special-package{
+    margin-top: -50px;
+}
+.special-offer{
+    background-color: #f7dddd;
+    border-radius: 10px;
+}
+.packages{
+    margin-top: 80px;
+}
+/* Toast styling */
+.toast-style{
+    border-left: 8px solid #FF6263;
+    background-color: #eed0d0;
+}
+/* services section info  */
+.service-section{
+    background-color: #F7F6F6;
+}
+.service i{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+.service h4{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.event-counter h2{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.event-counter p{
+    font-family: 'Philosopher', sans-serif;
+    color: var(--text-color);
+    
+}
+
+.scale{
+    -ms-transform: scale(0.1); /* IE 9 */
+    -webkit-transform: scale(0.1); /* Safari 3-8 */
+    transform: scale(1.02); 
+    transition: 0.2s;
+}
+/* customer reviews */
+.all-reviews{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.review-1 i{
+    color: ;
+    font-size: 3rem;
+    margin-left: 50px;
+    color: #c76f6f;
+}
+
+/* Question answer section */
+.question-section{
+    background-color: #F7F6F6;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* footer section  */
+
+.button{
+    width: 100px;
+    margin-left: 10px;
+    
+}
+.contract h3{
+    color:  #8ebb7b;
+    margin-bottom: 25px;
+}
+.category h3{
+    color:  #8ebb7b;
+    margin-bottom: 25px;
+}
+.contract i,p{
+    color:  #758283;
+}
+.contract-info{
+    margin-bottom: 10px;
+}
+.category i{
+    color: #758283;
+}
+
+.social-links i{
+    font-size: 18px;
+    color: #758283;
+}
+footer{
+    margin-bottom: 20px;
+}
+.fa-facebook:hover{
+    color: #207398;
+}
+.fa-instagram:hover{
+    color: #DE4839;
+}
+.fa-linkedin:hover{
+    color:#1B98F5;
+}
+.fa-youtube:hover{
+    color:#B4161B;
+}.fa-twitter:hover{
+    color:#1B98F5;
+}
+
